@@ -1,6 +1,5 @@
 import random
 n=random.randint(1,100)
-
 x=int(input("guess the number"))
 while True:
     if(x<n):
