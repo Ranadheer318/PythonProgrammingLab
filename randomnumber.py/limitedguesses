@@ -1,6 +1,6 @@
 import random
 n=random.randint(1,100)
-print(n)
+
 a=4
 while (a>=0):
     print("=====Enter the number to match the random number=====")
@@ -14,5 +14,5 @@ while (a>=0):
         print("Number Matched")
         break
     a=a-1
-    if(a>0)
-    print("You have FAILED to guess the number")
+    if(a>0):
+     print("You have FAILED to guess the number")
