@@ -1,0 +1,12 @@
+def largest_list(elements):
+      return max(elements)
+      
+
+
+elements=[]
+limit=int(input("Enter the Length"))
+for i in range(limit):
+      temp=int(input("ENTER THE ELEMENT"))
+      elements.append(temp)
+      largest_element=largest_list(elements)
+print("Largest element is:",largest_element)
